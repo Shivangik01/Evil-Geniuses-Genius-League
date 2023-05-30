@@ -26,7 +26,7 @@ class ProcessedGameState:
 
   def explore(self, data):
       '''
-        understanding the- what columns it has, count of null values, does it have duplicate values(same location on same time would mean there's error in the data)
+        understanding what columns it has, count of null values, does it have duplicate values(same location on same time would mean there's error in the data)
         understanding how many rounds were played
         checking all the area names on the map given
         checking names of players playing the game
