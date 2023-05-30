@@ -49,11 +49,11 @@ You, being the forward-thinking engineer that you are, know that this type of re
     <hr>
     <h3>
     Total Number of rounds played: 
-    <br>[ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30]<br>
-    Area names on the given map: <br>['TSpawn' 'TStairs' 'Tunnels' 'Fountain' 'LowerPark' 'Playground' 'Alley' 'Connector' 'BombsiteA' 'Canal' 'Pipe' 'Water' 'Construction' 'UpperPark' 'Restroom' 'Lobby' 'StorageRoom' 'SnipersNest' 'BackofA' 'Stairs' 'UnderA' 'Walkway' 'Bridge' 'BombsiteB' None 'SideAlley']<br>
-    Names of players playing the game: <br>['Player0' 'Player1' 'Player2' 'Player5' 'Player7' 'Player3' 'Player6' 'Player4' 'Player8' 'Player9']<br>
+    <br>[ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30]<br><br>
+    Area names on the given map: <br>['TSpawn' 'TStairs' 'Tunnels' 'Fountain' 'LowerPark' 'Playground' 'Alley' 'Connector' 'BombsiteA' 'Canal' 'Pipe' 'Water' 'Construction' 'UpperPark' 'Restroom' 'Lobby' 'StorageRoom' 'SnipersNest' 'BackofA' 'Stairs' 'UnderA' 'Walkway' 'Bridge' 'BombsiteB' None 'SideAlley']<br><br>
+    Names of players playing the game: <br>['Player0' 'Player1' 'Player2' 'Player5' 'Player7' 'Player3' 'Player6' 'Player4' 'Player8' 'Player9']<br><br>
     Players playing for team2: <br>['Player5' 'Player7' 'Player6' 'Player8' 'Player9']
-    </h3>
+    </h3><br>
     <img src='images/area_map.png'> </img>
     (Map based on the mean coordinates grouped by area names just to get a brief understanding in relation to actual map)
     <hr>
@@ -70,8 +70,8 @@ ii)  Reduce dependencies outside of standard Python libraries unless you can pro
     <li> checked for every row if the 'coordinates' are contained inside the path.
     <li> further checked the z-axis contraint for the row to be within the boundary.
     <hr>
-    <h3>Count of points within x,y axes boundary of vertices 13,14,15,16,17:  17093<br>
-    Count of points within the boundary after considering the Z axis:  832<br>
+    <h3>Count of points within x,y axes boundary of vertices 13,14,15,16,17:  17093<br><br>
+    Count of points within the boundary after considering the Z axis:  832<br><br>
     Status of whether or not each row falls within the provided boundary is stored in "within_boundary" column.</h3>
     </ul>
     <img src='images/light_blue_boundary_pseudo_map.png'> </img>
@@ -223,7 +223,7 @@ With a proper balanced team for development most of this features with a working
 
 * The code is extremely flexible.
 
-* The boundary points have to be provided and analysis is done for the input mentioned in the questions - ‘team2, ‘CT’, ’T’ , ‘Rifle’, ‘SMG’ and ‘BombsiteB’ other than that the code takes care of all dynamic values considered.
+* The boundary points have to be provided and analysis is done for the input values mentioned in the questions - ‘team2, ‘CT’, ’T’ , ‘Rifle’, ‘SMG’ and ‘BombsiteB’ other than that the code takes care of all dynamic values.
 
 * Comment block for each function in _ProcessGameState_ class is present.
 
