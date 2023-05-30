@@ -12,9 +12,6 @@ class ProcessedGameState:
 
 
   def __init__(self, file_path):
-  	  '''
-        initializing file path
-      '''
       self.file_path = file_path
 
 
@@ -370,9 +367,6 @@ class ProcessedGameState:
 
 
   def generate_overlayed_scatter_plot(self,data,ct_data):
-  	  '''
-        scatter plot of the required players on the map overlapping all other player positions
-      '''
 
       fig, ax = plt.subplots(figsize=(10, 8))
       ax.scatter(data['x'], data['y'], color='black', label='all_points')
